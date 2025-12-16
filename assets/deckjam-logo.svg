@@ -1,0 +1,29 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc" role="img">
+  <title id="title">DeckJam logo</title>
+  <desc id="desc">An emblem with a gradient record icon and the word DeckJam.</desc>
+  <defs>
+    <linearGradient id="dj-gradient" x1="12" y1="6" x2="60" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F47C20"/>
+      <stop offset="1" stop-color="#7B3CE1"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="70" y1="14" x2="208" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBC441"/>
+      <stop offset="1" stop-color="#F47C20"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#shadow)">
+    <circle cx="36" cy="32" r="28" fill="url(#dj-gradient)"/>
+    <circle cx="36" cy="32" r="18" fill="#0F0D0F" opacity="0.82"/>
+    <circle cx="36" cy="32" r="8" fill="#FBC441"/>
+    <path d="M21 26.5C22.8 22.5 26.86 19 32.4 19C38.3 19 43.1 23.12 43.1 28.12V41H38V29C38 26.4 35.7 24.4 32.4 24.4C29.3 24.4 27.1 26.2 26.1 28.7C25.4 30.4 25.4 32.6 25.9 34.4C26.6 36.9 28.7 39 31.5 39H43.1V43.2H31.4C26.1 43.2 21.7 39.6 20.4 34.6C19.8 32.1 19.9 29 21 26.5Z" fill="white" opacity="0.9"/>
+    <path d="M46.8 22.4H52.9V41H46.8V22.4Z" fill="white" opacity="0.9"/>
+    <path d="M49.85 17.2C51.84 17.2 53.46 18.7 53.46 20.6C53.46 22.5 51.84 24 49.85 24C47.86 24 46.26 22.5 46.26 20.6C46.26 18.7 47.86 17.2 49.85 17.2Z" fill="white" opacity="0.9"/>
+  </g>
+  <g fill="url(#text-gradient)" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="700" letter-spacing="0.2px">
+    <text x="72" y="38" font-size="26">Deck</text>
+    <text x="136" y="38" font-size="26" fill="#F5F5F5">Jam</text>
+  </g>
+  <filter id="shadow" x="0" y="0" width="92" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.4"/>
+  </filter>
+</svg>

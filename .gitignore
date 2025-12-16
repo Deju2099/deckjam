@@ -1,0 +1,5 @@
+# Ignore binary image assets
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.gif
